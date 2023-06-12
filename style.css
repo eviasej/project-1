@@ -1,0 +1,18 @@
+ul,
+p,
+h1,
+h2,
+h3,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container{
+    background: url(./icons/Group\ 49.png);
+}
