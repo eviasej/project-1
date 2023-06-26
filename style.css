@@ -23,6 +23,11 @@ html{
         color: rgba(255, 255, 255, 1);
 
 }
+.container {
+    width: 1030px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
 header{
     background:rgba(43, 74, 97, 0.87) ;
@@ -35,10 +40,7 @@ header{
 
 }
 
-.header-container{
-    
 
-}
 
 .nav-link{
     display: flex;
@@ -142,6 +144,7 @@ header{
 
         color: rgba(10, 56, 83, 1);
 
+
 }
 
 .quote-title{
@@ -175,5 +178,14 @@ width: 1440px;
     display: flex;
     align-self: center;
     justify-content: center;
-    border: 3px solid rgba(38, 199, 234, 1)
+
+    width: 260px;
+     height: 80px;
+      top: 1570px;
+       left: 590px;
+        border-radius: 45px 0px 45px 0px ;
+        color: rgba(38, 199, 234, 1);
+        background-color: rgba(11, 14, 102, 1);
+        border-style: none;
+        border: 3px solid rgba(38, 199, 234, 1);
 }
