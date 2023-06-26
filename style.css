@@ -30,13 +30,12 @@ html{
 }
 
 header{
+    background-repeat: no-repeat;
     background:rgba(43, 74, 97, 0.87) ;
-    margin-bottom: 39px;
-    margin-top: 39px;
-    background-image: url(./icons/Rectangle\ 141.jpg);
+
     padding-top: 20px;
     padding-bottom: 20px;
-    background-repeat: no-repeat;
+    border-bottom: 2px;
 
 }
 
@@ -74,7 +73,6 @@ header{
 .side-container{
     width: 376px; ;
     height: 381px;
-    margin-left: 204px;
     
 }
 
@@ -107,8 +105,8 @@ header{
 }
 
 .icons-list{
-    margin-bottom: 25px; 
-    margin-right:204px ;
+    padding-bottom: 25px; 
+    padding-right:204px ;
 }
 
 
