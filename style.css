@@ -33,9 +33,14 @@ header{
     background-repeat: no-repeat;
     background:rgba(43, 74, 97, 0.87) ;
 
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 38px;
+    padding-bottom: 36px;
     border-bottom: 3px solid white;
+}
+
+.nav-list{
+    display: flex;
+    
 }
 
 
