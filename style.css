@@ -14,6 +14,8 @@ li {
     width: 1030px;
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header{
@@ -23,11 +25,24 @@ header{
     padding-top: 38px;
     padding-bottom: 36px;
     border-bottom: 3px solid white;
+
+    display: flex;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
 }
 
 .nav-list{
     display: flex;
+    margin-left:165px ;
 
+}
+
+.nav-item:not(:first-child){
+    margin-left: 40px;
 }
 
 .nav-link{
@@ -41,7 +56,8 @@ header{
 }
 
 .nav-button
-{width: 141px;
+{
+    width: 141px;
      height: 41.69355010986328px;
      top: 54px;
       left: 1095px;
@@ -49,9 +65,9 @@ header{
        border-style: none;
        color: rgba(38, 198, 234, 1);
        background-color:rgba(11, 14, 102, 1) ;
-    border: 2px solid rgba(38, 199, 234, 1)
+    border: 2px solid rgba(38, 199, 234, 1);
 
-
+    margin-left: auto;
     }
 
 
@@ -83,11 +99,20 @@ header{
     width: 1440px; 
     height: 740px; ;
     background-image: url(./icons/Group\ 48\ 1.jpg);
+    background-repeat: no-repeat;
 }
+/*#p{
+    width: 298px;
+}
+
+#p-ukr{
+    width: 376px;
+}*/
 
 .side-container{
     width: 376px; ;
     height: 381px;
+    padding-top: 180px;
     
 }
 
