@@ -11,53 +11,72 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <nav>
-                <img src="./icons/avatar-2-6235acaebf926 2.png" alt="Avatar-logo">
-                
-                <ul>
-                    <li><a href="">Головна</a></li>
-                
-                    <li><a href="">Про нас</a></li>
-                
-                    <li><a href="">Контакти</a></li>
-                </ul>
-                
-                <button type="button">Увійти</button>
+    <header >
+       <div class="header-container">
+        <nav>
+        
+            <ul class="nav-list">
+                <li class="nav-item"><img class="nav-link img" src="./icons/avatar-2-6235acaebf926 2.png" alt="Avatar-logo">
+                </li>
+        
+                <li class="nav-item">
+                    <a class="nav-link" href="">Головна</a>
+                </li>
+        
+                <li class="nav-item"><a class="nav-link" href="">Про нас</a></li>
+        
+                <li class="nav-item"><a class="nav-link" href="">Контакти</a></li>
 
-                <img src="./icons/Group 49.png" alt="Language switch">
-
-                <img src="./icons/Rectangle 141.jpg" alt="">
-
-            </nav>
+                <li class="nav-item" >
+                    <button class="nav-button" type="button">Увійти</button>
+                
+                    <p>ENG</p>
+                
+                    <img src="./icons/Switcher.png" alt="Language switch">
+                
+                    <p>UA</p>
+                </li>
+            </ul>
+        
+            
+        </nav>
+       </div>
+            
 
             </header>
             
             <main>
                 <!-- section hero -->
-                <section>
-                    <p>Oe perlltxe hu tsamsiyu!
-                        Ngari hu Eywa salew tirea,
-                        tokx 'ì'awn slu Na'viyä hapxì.
-                        Säwem nìayoeng!</p>
-            
-                    <img src="./icons/Rectangle 53.png" alt="arrow">
-            
-                    <p>Хоробрий воїне, звертаюсь до тебе!
-                        Твій дух йде з Ейвою,
-                        твоє тіло залишається,
-                        щоб стати частиною Народу.
-                        Борись разом з нами!</p>
-            
-                    <button type="button">Приєднатися до клану</button>
-            
-                    <ul>
-                        <li><img src="./icons/Vector.png" alt="Instagram"></li>
-                        <li><img src="./icons/Vector-2.png" alt="Twitter"></li>
-                        <li><img src="./icons/Vector-3.png" alt="YouTube"></li>
-                    </ul>
-            
+                <div class="hero-container">
+                <section class="hero">
+                    <div class="side-container">
+                        <section class="hero">
+                        <p class="text-hero">Oe perlltxe hu tsamsiyu!
+                            Ngari hu Eywa salew tirea,
+                            tokx 'ì'awn slu Na'viyä hapxì.
+                            Säwem nìayoeng!</p>
+                    
+                        <img src="./icons/Rectangle 53.png" alt="arrow">
+                    
+                        <p class="text-hero">Хоробрий воїне, звертаюсь до тебе!
+                            Твій дух йде з Ейвою,
+                            твоє тіло залишається,
+                            щоб стати частиною Народу.
+                            Борись разом з нами!</p>
+                    
+                        <div class="button-hero-container">
+                            <button class="button-hero" type="button">Приєднатися до клану</button>
+                        </div>
+                    </div>
+
+                    <div class="app-icons-container">
+                        <ul class="app-icons">
+                            <li class="icons-list"><img src="./icons/Vector.png" alt="Instagram"></li>
+                            <li class="icons-list"><img src="./icons/Vector-2.png" alt="Twitter"></li>
+                            <li class="icons-list"><img src="./icons/Vector-3.png" alt="YouTube"></li>
+                        </ul>
+
+                    </div>
             
                 </section>
         </div>
@@ -65,30 +84,30 @@
     
         <!--Quote section-->
 
-        <section>
-            <h2>“БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ
+        <section class="quote-section" >
+            <h2 class="quote-title">“БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ
             ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.”</h2>
 
-            <p>Джейк Саллі</p>
+            <p class="quote-name">Джейк Саллі</p>
 
-            <img src="./icons/Rectangle 8.png" alt="icon">
+            <img class="quote-picture" src="./icons/Rectangle 8.png" alt="icon">
         </section>
 
         <!--Trailer section-->
 
-        <section>
-            <button type="button">Дивитись трейлер</button>
+        <section class="trailer-section">
+            <button class="trailer-button" type="button">Дивитись трейлер</button>
         </section>
 
         <!--Quote section-->
 
-        <section>
-            <h2>“ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ
+        <section class="quote-section" >
+            <h2 class="quote-title">“ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ
             ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”</h2>
             
-            <p>Джейк Саллі</p>
+            <p class="quote-name">Джейк Саллі</p>
             
-            <img src="./icons/Rectangle 8.png" alt="icon">
+            <img class="quote-picture" src="./icons/Rectangle 8.png" alt="icon">
 
         </section>
 
@@ -144,13 +163,13 @@
 
         <!--Quote section-->
 
-        <section>
-            <h2>“НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ,
+        <section class="quote-section">
+            <h2 class="quote-title">“НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ,
             ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”</h2>
         
-            <p>Нейтірі</p>
+            <p class="quote-name">Нейтірі</p>
         
-            <img src="./icons/Rectangle 8.png" alt="icon">
+            <img class="quote-picture" src="./icons/Rectangle 8.png" alt="icon">
         
         </section>
 

@@ -7,12 +7,173 @@ li {
     list-style: none;
     padding: 0;
     margin: 0;
-}
-
-a {
     text-decoration: none;
 }
 
-.container{
-    background: url(./icons/Group\ 49.png);
+html{
+    font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+
+        color: rgba(255, 255, 255, 1);
+
+}
+
+header{
+    background:rgba(43, 74, 97, 0.87) ;
+    margin-bottom: 39px;
+    margin-top: 39px;
+    background-image: url(./icons/Rectangle\ 141.jpg);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-repeat: no-repeat;
+
+}
+
+.header-container{
+    
+
+}
+
+.nav-link{
+    display: flex;
+    justify-content: space-around;
+    font-family: Inter;
+    font-size: 20px;
+   font-weight: 300;
+    line-height: 24px;
+   letter-spacing: 0em;
+    text-align: center;
+
+    background: rgba(255, 255, 255, 1);
+}
+
+.nav-link:hover,
+.nav-link:focus{
+    color: rgba(148, 207, 255, 1);
+}
+
+.nav-item{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-container{
+    width: 1440px; 
+    height: 740px; ;
+    background-image: url(./icons/Group\ 48\ 1.jpg);
+}
+
+.side-container{
+    width: 376px; ;
+    height: 381px;
+    margin-left: 204px;
+    
+}
+
+.button-hero{
+    font-family: HeadlandOne;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(38, 199, 234, 1);
+    background-color: rgba(11, 14, 102, 1);
+    border-style: none;
+    border: 3px solid rgba(38, 199, 234, 1);
+    Width: 199px;
+    Height: 60px;
+     top: 631px; left: 204px;
+     border-radius: 45px 0px 45px 0px;
+
+}
+
+.button-hero-container{
+    width: 260px;
+        height: 80px;
+}
+
+.app-icons-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icons-list{
+    margin-bottom: 25px; 
+    margin-right:204px ;
+}
+
+
+
+.nav-link{
+    display: flex;
+    align-items: center;
+}
+
+.nav-item{
+        font-weight: 300;
+        text-align: center;
+}
+
+.text-hero{
+
+}
+
+/*Quote section*/
+.quote-section{
+    width: 1440px;
+     height: 350px;
+     top: 890px;
+
+     background-color: rgba(255, 255, 255, 1); 
+
+    font-family: 'Inter';
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 44px;
+        letter-spacing: 0em;
+        text-align: justify;
+
+        color: rgba(10, 56, 83, 1);
+
+}
+
+.quote-title{
+    display: flex;
+        justify-content: center;
+
+}
+
+.quote-name{
+    display: flex;
+    align-self: center;
+
+}
+
+.quote-picture{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/*trailer-section*/
+.trailer-section{
+   background-image: url(./icons/Rectangle\ 10.jpg);
+width: 1440px;
+ height: 741px;
+  top: 1240px;
+}
+
+.trailer-button{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    border: 3px solid rgba(38, 199, 234, 1)
 }
