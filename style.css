@@ -100,7 +100,7 @@ nav{
     background-image: url(./icons/Group\ 48\ 1.jpg);
     background-repeat: no-repeat;
 }
-/*#p{
+#p{
     width: 298px;
 }
 
@@ -166,60 +166,50 @@ nav{
 
 /*Quote section*/
 .quote-section{
-    width: 1440px;
-     height: 350px;
-     top: 890px;
 
      background-color: rgba(255, 255, 255, 1); 
 
-    font-family: 'Inter';
-        font-size: 36px;
-        font-weight: 400;
-        line-height: 44px;
-        letter-spacing: 0em;
-        text-align: justify;
-
         color: rgba(10, 56, 83, 1);
+        padding-top: 75px;
+        padding-bottom: 10px;
+        text-align: center;
 
 
 }
 
 .quote-title{
-    display: flex;
-        justify-content: center;
+    font-weight: 400px;
+    font-size: 36px;
+    line-height: 43.57px;
 
 }
 
 .quote-name{
-    display: flex;
-    align-self: center;
+    font-size: 24px;
+    line-height: 29.05px;
 
 }
-
-.quote-picture{
-    display: flex;
-    justify-content: center;
-
-}
-
 
 /*trailer-section*/
 .trailer-section{
-   background-image: url(./icons/Rectangle\ 10.jpg);
+background-image: url(./icons/Rectangle\ 10.jpg);
 width: 1440px;
- height: 741px;
-  top: 1240px;
+height: 741px;
+
+display: flex;
+align-items: center;
+margin-left: auto;
+margin-right: auto;
+
 }
 
 .trailer-button{
     display: flex;
-    align-self: center;
+    align-items: center;
     justify-content: center;
 
     width: 260px;
      height: 80px;
-      top: 1570px;
-       left: 590px;
         border-radius: 45px 0px 45px 0px ;
         color: rgba(38, 199, 234, 1);
         background-color: rgba(11, 14, 102, 1);
