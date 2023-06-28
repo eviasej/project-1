@@ -229,3 +229,23 @@ margin-right: auto;
         border-style: none;
         border: 3px solid rgba(38, 199, 234, 1);
 }
+
+/*New language section*/
+
+.new-language{
+    background-image: url(./icons/Rectangle\ 20.png);
+    Width: 1440px;
+    Height: 704px;
+    display: flex;
+}
+
+.language-list{
+}
+
+.language-item{
+    background-color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 25px;
+    margin-left: 33px;
+    width:320px;
+    height: 240px;
+}
