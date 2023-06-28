@@ -231,15 +231,20 @@ margin-right: auto;
 }
 
 /*New language section*/
-
 .new-language{
-    background-image: url(./icons/Rectangle\ 20.png);
+background-image: url(./icons/Rectangle\ 20.png);
+}
+
+.language{
+    
     Width: 1440px;
     Height: 704px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .language-list{
+    
 }
 
 .language-item{
