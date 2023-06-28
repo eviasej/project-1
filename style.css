@@ -17,15 +17,21 @@ li {
     margin-left: auto;
     margin-right: auto;
 }
+/*header*/
 
 header{
-    background-repeat: no-repeat;
     background:rgba(43, 74, 97, 0.87) ;
 
     padding-top: 38px;
     padding-bottom: 36px;
     border-bottom: 3px solid white;
+    margin-left: auto;
+    margin-right: auto;
 
+    
+}
+
+.switch{
     
 }
 
@@ -43,7 +49,12 @@ nav{
 .nav-item:not(:first-child){
     margin-left: 40px;
 }
-
+.nav-link:link,
+.nav-link:visited,
+.nav-link:hover,
+.nav-link:active{
+    text-decoration: none;
+}
 .nav-link{
     font-family: Inter;
         font-size: 20px;
