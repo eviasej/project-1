@@ -25,8 +25,6 @@ header{
     padding-top: 38px;
     padding-bottom: 36px;
     border-bottom: 3px solid white;
-    margin-left: auto;
-    margin-right: auto;
 
     display: flex;
     align-items: center;
@@ -107,19 +105,10 @@ nav{
     display: flex;
     justify-content: space-around;
 }
-
+/*hero*/
 .hero{
-    width: 1440px; 
-    height: 740px; ;
     background-image: url(./icons/Group\ 48\ 1.jpg);
     background-repeat: no-repeat;
-}
-#p{
-    width: 298px;
-}
-
-#p-ukr{
-    width: 376px;
 }
 
 .side-container{
@@ -127,6 +116,16 @@ nav{
     height: 381px;
     padding-top: 180px;
     
+}
+
+.text-hero{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24.2px;
+
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 42px;
 }
 
 .button-hero{
@@ -148,8 +147,8 @@ nav{
 }
 
 .button-hero-container{
-    width: 260px;
-        height: 80px;
+    /*width: 260px;
+        height: 80px;*/
 }
 
 .app-icons-container{
